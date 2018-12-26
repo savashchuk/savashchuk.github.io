@@ -20,7 +20,7 @@ function loadData(){
       document.getElementById('email-data').innerHTML = data.email || 'No Data'
       document.getElementById('bio-data').innerHTML = data.bio || 'No Data'
     })
-    catch(error => console.error(error))
+    .catch(error => console.error(error))
   }
 
 //preload default profile
