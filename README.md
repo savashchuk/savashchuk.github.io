@@ -1,2 +1,2 @@
-# savashchuk.github.io-lab1
+# savashchuk.github.io
 ssp_lab1
