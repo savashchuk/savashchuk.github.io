@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  base info  -->
+    <meta charset="utf-8">
+    <title>Savashchuk lab 4</title>
+    <!--  подключение css  -->
+    <link rel="stylesheet" href="lab4.css">
+  </head>
+  <body>
+
+    <!-- поле ввода -->
+    <div class="input-container">
+      <p>
+        Enter login for searching:
+      </p>
+      <div class="load-form">
+        <input id="input-object" value="gaearon" />
+        <button id="load-btn" onclick="loadData()">Load Data</button>
+      </div>
+    </div>
+
+    <div class="info">
+      <!-- image -->
+      <img id="avatar-image" />
+      <div class="main-container">
+        
+        <!-- login -->
+        <p class="main-label">Login:</p>
+        <p id="login-data"></p>
+
+        <!-- name -->
+        <p class="main-label">Name:</p>
+        <p id="name-data"></p>
+
+        <!-- company -->
+        <p class="main-label">Company:</p>
+        <p id="company-data"></p>
+
+        <!-- blog -->
+        <p class="main-label">Blog:</p>
+        <p id="blog-data"></p>
+
+        <!-- location -->
+        <p class="main-label">Location:</p>
+        <p id="location-data"></p>
+
+        <!-- email -->
+        <p class="main-label">Email::</p>
+        <p id="email-data"></p>
+
+        <!-- bio -->
+        <p class="main-label">Bio:</p>
+        <p id="bio-data"></p>
+
+      </div>
+    </div>
+    <!-- подключение js-скрипта -->
+    <script src="lab4.js"></script>
+  </body>
+</html>
